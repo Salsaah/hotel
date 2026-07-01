@@ -154,18 +154,24 @@ section{
     margin-top: 10%;
 }
 
-.button {
-  width:300px;
-  padding: 20px;
-  background-color: #2e506d;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  justify-content: center;
-  margin: auto;
-  color: #ffff;
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding: 20px;
+    margin: 40px auto;
+    background-color: #2e506d;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
 }
+
+.button p{
+    margin: 0;
+}
+
 
 .buton::after {
   content: "";
@@ -416,4 +422,22 @@ section{
 .kupon-btn img:hover{
     transform: scale(1.03);
     opacity: .9;
+}
+
+.kuponsanta {
+  width:990px;
+  padding: 20px;
+  background-color: #800D0E;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: block;
+}
+
+.buttonsanta {
+  width:990px;
+  border-color: #ffff;
+  position: absolute;
+  margin-right: 40px;
+
 }
