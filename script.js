@@ -44,3 +44,10 @@ new Swiper(".sec4Swiper2", {
         disableOnInteraction: false,
     },
 });
+
+const menu = document.getElementById("menu-toggle");
+const nav = document.getElementById("nav-menu");
+
+menu.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});
